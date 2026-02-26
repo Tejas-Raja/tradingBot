@@ -1,0 +1,38 @@
+# Environment variables / secrets — NEVER commit these
+.env
+.env.*
+*.env
+
+# Logs — share these manually as per assignment instructions
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Zip artifacts
+*.zip
