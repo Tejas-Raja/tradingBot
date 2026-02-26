@@ -33,22 +33,18 @@ trading_bot/
 ### 2. Clone and install
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Tejas-Raja/tradingBot>
 cd trading_bot
 pip install -r requirements.txt
 ```
 
 ### 3. Set your credentials
 
-**Option A — Environment variables (recommended):**
+**Environment variables:**
 ```bash
 export BINANCE_API_KEY=your_api_key_here
 export BINANCE_API_SECRET=your_api_secret_here
 ```
-
-**Option B — Interactive prompt:**  
-Leave the env vars unset; the bot will prompt you at runtime.
-
 ---
 
 ## How to Run
